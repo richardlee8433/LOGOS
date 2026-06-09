@@ -212,6 +212,9 @@ def main():
     print(f"  idx  -> {INDEX}")
     print(f"  status updated")
 
+    from integrity import run_check
+    run_check(fix=True, silent_if_clean=True)
+
 
 if __name__ == "__main__":
     main()

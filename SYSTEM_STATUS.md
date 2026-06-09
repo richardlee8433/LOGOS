@@ -1,7 +1,7 @@
 # LOGOS — System Status
 **Purpose:** 個人知識發布台——品牌定義、發文驗證、市場訊號分析、知識產出管理
 **Layer:** LTI  
-**Updated:** 2026-05-26  **Status:** Active
+**Updated:** 2026-06-06  **Status:** Active
 
 ---
 
@@ -9,17 +9,17 @@
 <!-- AUTO-UPDATE: add.py 執行後自動更新 -->
 | Metric | Value |
 |--------|-------|
-| Posts published | 23 |
-| Cluster A (AI widens judgment gap) | 6 |
-| Cluster B (PM defines boundaries) | 7 |
-| Cluster C (Build-in-public) | 4 |
-| Cluster D (AI as infrastructure) | 6 |
-| Last activity | 2026-05-26 |
+| Posts published | 34 |
+| Cluster A (AI widens judgment gap) | 7 |
+| Cluster B (PM defines boundaries) | 8 |
+| Cluster C (Build-in-public) | 9 |
+| Cluster D (AI as infrastructure) | 10 |
+| Last activity | 2026-06-09 |
 
 ---
 
 ## Current Focus
-Cluster D 偏少，下一篇優先補 AI as infrastructure / substrate 語言。
+Cluster A 目前最少（7 篇），下一篇優先補 AI widens judgment gap 語言。
 市場需要的 safety/alignment 詞彙尚未出現在任何貼文中。
 
 ---
@@ -33,7 +33,7 @@ Cluster D 偏少，下一篇優先補 AI as infrastructure / substrate 語言。
 ---
 
 ## Gaps
-- Cluster D 只有 4 篇，AI 基礎設施語言不足
+- Cluster A 只有 7 篇，AI widens judgment gap 語言相對不足
 - 完全沒有 safety / responsible AI 相關詞彙
 - market/ 模組尚未建立（品牌 vs. 市場 gap 分析）
 

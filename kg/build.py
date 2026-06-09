@@ -103,11 +103,20 @@ Respond with a JSON array only, no other text:
 
     raw = resp.choices[0].message.content.strip()
     data = json.loads(raw)
-    # Handle both {"concepts": [...]} and [...] responses
-    if isinstance(data, dict):
-        items = data.get("concepts", data.get("items", list(data.values())[0]))
-    else:
+    # Handle {"concepts": [...]} and bare [...] responses
+    if isinstance(data, list):
         items = data
+    elif isinstance(data, dict):
+        items = None
+        for key in ("concepts", "items", "results", "result", "data"):
+            val = data.get(key)
+            if isinstance(val, list):
+                items = val
+                break
+        if items is None:
+            raise ValueError(f"Unexpected JSON structure: {list(data.keys())}")
+    else:
+        raise ValueError(f"Unexpected response type: {type(data)}")
     return items[:5]
 
 
