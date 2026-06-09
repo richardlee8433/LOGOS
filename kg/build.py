@@ -87,11 +87,13 @@ Extract 3-5 distinct key concepts from this post. Each concept should be:
 - Something another PM could search for or reference
 - 2-6 words maximum
 
-Respond with a JSON array only, no other text:
-[
-  {{"concept": "short concept name", "description": "one sentence explaining this concept as used in the post"}},
-  ...
-]"""
+Respond with a JSON object with a "concepts" key containing the array:
+{{
+  "concepts": [
+    {{"concept": "short concept name", "description": "one sentence explaining this concept as used in the post"}},
+    ...
+  ]
+}}"""
 
     resp = client.chat.completions.create(
         model="gpt-4.1-mini",
