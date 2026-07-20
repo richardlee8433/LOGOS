@@ -37,10 +37,10 @@ Analyze the draft and respond in this exact format:
 
 **Positioning Fit:** [YES / PARTIAL / NO] — [one sentence explanation]
 
-**Reader Value:** (judge from the reader's side, not the brand's)
-- Expensive Problem: [PASS / WEAK / FAIL] — [which part of the ICP's expensive problem this post addresses; FAIL if it only showcases what Richard did]
-- Worth-Reading: [PASS / WEAK / FAIL] — [which category it lands in: reusable framework, well-argued perspective, or relatable observation; FAIL if none]
-- Save Test: [PASS / WEAK / FAIL] — [the one thing a reader could apply in their own context without Richard's tools or codebase; FAIL if there is nothing to take away]
+**Reader Value:** (judge from the reader's side, not the brand's — be adversarial: assume FAIL and let the draft prove otherwise. "Readers could be inspired" or "readers could think differently" is NOT value; it is the definition of FAIL.)
+- Expensive Problem: [PASS / WEAK / FAIL] — PASS only if the draft addresses the reader's situation directly. If the subject is Richard's own artifact (his tool, his stack, his results) and the reader's work appears nowhere, FAIL regardless of how impressive the artifact is.
+- Worth-Reading: [PASS / WEAK / FAIL] — name which category it lands in: reusable framework (stated explicitly in the draft, not implied by a tool), well-argued perspective (claim + reasoning, not claim alone), or relatable observation. An unargued closing assertion is not a perspective. FAIL if none.
+- Save Test: [PASS / WEAK / FAIL] — quote the exact sentence(s) from the draft that a reader could act on in their own context without Richard's tools or codebase. If you cannot quote such a sentence, FAIL. "They could replicate the approach" does not count unless the draft itself tells them how.
 
 **Decision:** [GO / REVISE / DUPLICATE]
 - DUPLICATE: Similarity Level is IDENTICAL or HIGH — too close to an existing post, consider merging or dropping

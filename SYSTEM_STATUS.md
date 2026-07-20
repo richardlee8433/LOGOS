@@ -35,11 +35,10 @@ safety / responsible AI 已在 LPL-20260720T082504Z 中被點名為 open territo
 
 ## Gaps
 - Cluster B 只有 9 篇，PM defines boundaries 語言相對不足
-- 仍無任何一篇正面處理 safety / responsible AI（已公開承認為 open territory）
+- 仍無任何一篇正面處理 safety / responsible AI（已公開承認為 open territory）。
+  注意：compare.py 預設門檻 0.40 會把它誤判為 covered（一月 MentorFlow 的
+  Risk-Critical Case Handling 以 0.535 相鄰匹配），查 safety gap 要用 --threshold 0.55
 - market/ 目錄已建立但為空，品牌 vs. 市場 gap 分析目前靠 kg/compare.py 代替
-- 知識圖譜落後發文進度：46 篇已發布，logos_kg.db 涵蓋 33 篇（孤兒記錄已清）。
-  缺的 13 篇概念已離線抽取完成（kg/pending_concepts.json），
-  OpenAI 額度恢復後跑 `python kg/import_pending.py` 補 embedding 即完成
 
 ---
 

@@ -90,6 +90,7 @@ def llm_check(draft: str, posts: list[dict]) -> str:
     resp = client.chat.completions.create(
         model="gpt-4.1-mini",
         max_tokens=1024,
+        temperature=0,
         messages=[{"role": "user", "content": prompt}],
     )
     return resp.choices[0].message.content
