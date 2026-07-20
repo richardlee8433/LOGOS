@@ -1,6 +1,10 @@
 {
   "positioning": "AI native PM who keeps humans in the judgment seat. Core belief: AI accelerates capability, but accountability stays with the person.",
   "target_perception": "PM who can uplift an entire team's AI capability — not an individual contributor who builds solo tools.",
+  "audience": {
+    "icp": "PMs and product leaders (including hiring CPOs/CTOs) who want to work AI-natively but haven't figured out the operating model",
+    "expensive_problem": "How do I actually integrate AI into PM work — keeping judgment and accountability human — instead of just accumulating tools?"
+  },
   "clusters": {
     "A": "AI removes bottlenecks but widens the judgment gap — speed exposes whether your thinking is structured enough",
     "B": "PM's job is to define boundaries in ambiguity — without waiting for permission or clarity from others",

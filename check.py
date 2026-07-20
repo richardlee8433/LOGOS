@@ -76,6 +76,8 @@ def llm_check(draft: str, posts: list[dict]) -> str:
     )
     prompt = PROMPT_TPL.format(
         positioning=BRAND["positioning"],
+        audience_icp=BRAND["audience"]["icp"],
+        audience_problem=BRAND["audience"]["expensive_problem"],
         cluster_A=BRAND["clusters"]["A"],
         cluster_B=BRAND["clusters"]["B"],
         cluster_C=BRAND["clusters"]["C"],
