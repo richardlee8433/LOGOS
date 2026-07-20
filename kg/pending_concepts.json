@@ -1,0 +1,124 @@
+[
+  {
+    "post_id": "LPL-20260610T121644Z",
+    "concepts": [
+      {"concept": "Conversation confirms decision", "description": "Static product pages show a product, but a real-time conversation resolves the buyer's specific situation at the moment of decision."},
+      {"concept": "Decision-moment drop-off", "description": "High-intent buyers leave a product page when it cannot answer 'is this right for MY situation', returning to search or competitors."},
+      {"concept": "Conversational commerce conversion lift", "description": "Evidence of 25-60% and up to 4x conversion gains when product pages can answer specific questions in real time."},
+      {"concept": "Conversation gap on product pages", "description": "Reframing lost sales as a conversation the page cannot have, rather than a traffic or content problem."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260610T130218Z",
+    "concepts": [
+      {"concept": "Free first 10 percent", "description": "AI makes early exploration nearly free, letting a PM try many product versions before committing to one."},
+      {"concept": "Judgment over velocity", "description": "The scarce resource is the judgment call about which version of the product is worth building next, not iteration speed."},
+      {"concept": "Each version redefines the product", "description": "Every iteration is a different answer to what the product actually does, not merely an added feature."},
+      {"concept": "Visible model tradeoffs", "description": "Running two models side by side to expose limitations instead of hiding them, building user trust."},
+      {"concept": "Targeting competitor blind spots", "description": "Positioning a product version against the gap an incumbent ignores, such as investigation versus storage."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260615T224424Z",
+    "concepts": [
+      {"concept": "Average hides critical failures", "description": "A strong average score can conceal catastrophic errors in exactly the cases where being right matters most."},
+      {"concept": "Evaluation grounded in user problems", "description": "Building evals from clustered real user feedback and the scenarios that matter, not from the data you happen to have."},
+      {"concept": "Failure severity scoring", "description": "Scoring AI failures on severity, harm scope, immediacy, and reversibility to distinguish bug classes."},
+      {"concept": "Adaptive sampling for high-motion", "description": "Detecting scene dynamics first, then changing sampling rate, prompts, and review defaults for high-motion footage."},
+      {"concept": "Show where it broke", "description": "Publicly demonstrating an AI product's failure mode instead of only its working demo."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260615T224928Z",
+    "concepts": [
+      {"concept": "Prototype as shared language", "description": "PM owns the experience, engineer owns the implementation, and the working prototype bridges the two."},
+      {"concept": "Code back to spec", "description": "Converting a validated AI-built prototype into a complete English spec that engineers re-implement without ambiguity."},
+      {"concept": "PM absorbs discovery cost", "description": "The PM validates the most expensive discovery risk in a prototype before it hits the engineering queue."},
+      {"concept": "Merging PM-engineer roles", "description": "The most efficient shipping unit is an engineer with great product taste, so PM and engineering roles converge."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260617T210503Z",
+    "concepts": [
+      {"concept": "Which hour is worth analyzing", "description": "The real cost question is deciding where intelligence is needed at all, not making inference cheaper."},
+      {"concept": "Three-layer cost filter", "description": "Optical flow, a motion threshold, then a cheap model process only the 10% of footage that matters, cutting cost 10x."},
+      {"concept": "Barrels vs ammunition", "description": "Keith Rabois's distinction between people who drive decisions end-to-end and people who execute handed tasks."},
+      {"concept": "Most footage should not reach AI", "description": "Pre-filtering with near-zero-cost methods so the majority of input never incurs model cost."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260622T142817Z",
+    "concepts": [
+      {"concept": "Taste problem", "description": "When anyone can ship a working prototype in an afternoon, opinion-based design decisions become the differentiator."},
+      {"concept": "Cognitive surrender", "description": "Tony Fadell's term for accepting AI output without questioning it, losing the informed gut that produces taste."},
+      {"concept": "Feeling over feature", "description": "Details like staged loading animations and visible hashes exist to create trust and feeling, not function."},
+      {"concept": "Informed gut", "description": "Taste built by running the product and noticing what feels off, rather than following a spec."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260626T151738Z",
+    "concepts": [
+      {"concept": "Fill, not invent", "description": "The AI never guesses negotiated terms; it structures and fills known values and asks when data is missing."},
+      {"concept": "Boring builds adoption", "description": "Colleagues adopted the system precisely because it is predictable and unexciting rather than impressive."},
+      {"concept": "Judgment versus fill-in split", "description": "Breaking a workflow apart by which parts require human judgment and which are fill-in-the-blank."},
+      {"concept": "Reviewer feedback as system rules", "description": "A feedback loop that converts reviewer notes into permanent system rules."},
+      {"concept": "Golden sample calibration", "description": "Extracting calibration baselines from dozens of real signed agreements to validate generated drafts."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260629T110446Z",
+    "concepts": [
+      {"concept": "Generate versus fill", "description": "Generation is dangerous for structured documents; filling tokens into a fixed template is reliable, auditable, repeatable."},
+      {"concept": "Tokenized master templates", "description": "Replacing every variable field with a unique token so legal boilerplate, numbering, and formatting are never touched."},
+      {"concept": "XML run fragmentation", "description": "Word splits a sentence across formatting runs, so naive find-and-replace silently corrupts documents."},
+      {"concept": "Structure versus appearance separation", "description": "Separating what goes into a document from what it looks like as the basis of reliable document automation."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260702T204610Z",
+    "concepts": [
+      {"concept": "Two layers of feedback", "description": "Word documents carry comments and tracked changes separately; reading only one layer misses the real review."},
+      {"concept": "Preserve reviewer markup", "description": "Never overwrite the reviewer's marked-up copy; save it before building the next clean version."},
+      {"concept": "Human-in-the-loop as interface", "description": "Human review is an interface you design, assuming feedback lives in more places than the obvious one, not a checkpoint phase."},
+      {"concept": "Checkpoint requires reading the return", "description": "A review checkpoint only works if the system knows how to read and preserve what came back."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260708T222152Z",
+    "concepts": [
+      {"concept": "Agency as architecture", "description": "High agency is not a personality trait but a system you decide to build."},
+      {"concept": "Render intent per audience", "description": "One source of product intent rendered as a prototype for business, a spec for engineers, and a policy framing for legal."},
+      {"concept": "PRD interpretation gap", "description": "One document read differently by every team, with the mismatch surfacing weeks later when builds diverge."},
+      {"concept": "Interviewing with an operating system", "description": "Presenting the system that produced the work rather than a portfolio of outputs."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260710T220932Z",
+    "concepts": [
+      {"concept": "Divergence versus convergence", "description": "The real gap between failed and successful AI builds is whether iteration converges to done, not speed."},
+      {"concept": "Solo dead end", "description": "A tangled single-file build that no second person, or even the author, can safely change."},
+      {"concept": "Team-inheritable build", "description": "Separated modules, version control, and design docs make an AI build something a team can inherit and grow."},
+      {"concept": "Convergence enables operating model", "description": "Once convergence holds, an AI workflow stops being one person's productivity and becomes a team's work pattern."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260711T221403Z",
+    "concepts": [
+      {"concept": "Information into judgment", "description": "The scarce skill is building systems that transform public signals into a positioning judgment, not information retrieval."},
+      {"concept": "External validation of AI thesis", "description": "An industry CPTO independently corroborating market reads the system produced months earlier from public data."},
+      {"concept": "Market read before prototype", "description": "Starting an interview or product process with a market thesis rather than a build."},
+      {"concept": "Purpose-built models where differentiated", "description": "Building first-party models only where differentiation, cost, or latency demand it, using general LLMs elsewhere."},
+      {"concept": "Calibrated confidence in AI output", "description": "Knowing how much confidence to place in a system-produced judgment is part of the skill."}
+    ]
+  },
+  {
+    "post_id": "LPL-20260720T082504Z",
+    "concepts": [
+      {"concept": "Three territories framework", "description": "Sorting each idea by whether the market discusses it and whether you have covered it: covered, open, and owned territory."},
+      {"concept": "Owned territory as moat", "description": "Ideas you keep advancing that few others discuss are your potential differentiation to protect."},
+      {"concept": "Blind spot from inside the feed", "description": "Embedding comparison surfaced a safety coverage gap invisible from within one's own content."},
+      {"concept": "Sorting is compute, call is judgment", "description": "Similarity scores are computation; deciding which gap is worth entering remains human judgment."},
+      {"concept": "Relational knowledge management", "description": "Luhmann's principle that ideas become useful when placed in relation to other ideas, applied to writing in public."}
+    ]
+  }
+]

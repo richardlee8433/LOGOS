@@ -1,7 +1,7 @@
 # LOGOS — System Status
 **Purpose:** 個人知識發布台——品牌定義、發文驗證、市場訊號分析、知識產出管理
 **Layer:** LTI  
-**Updated:** 2026-06-06  **Status:** Active
+**Updated:** 2026-07-20  **Status:** Active
 
 ---
 
@@ -9,18 +9,19 @@
 <!-- AUTO-UPDATE: add.py 執行後自動更新 -->
 | Metric | Value |
 |--------|-------|
-| Posts published | 34 |
-| Cluster A (AI widens judgment gap) | 7 |
-| Cluster B (PM defines boundaries) | 8 |
-| Cluster C (Build-in-public) | 9 |
-| Cluster D (AI as infrastructure) | 10 |
-| Last activity | 2026-06-09 |
+| Posts published | 46 |
+| Cluster A (AI widens judgment gap) | 10 |
+| Cluster B (PM defines boundaries) | 9 |
+| Cluster C (Build-in-public) | 15 |
+| Cluster D (AI as infrastructure) | 12 |
+| Last activity | 2026-07-20 |
 
 ---
 
 ## Current Focus
-Cluster A 目前最少（7 篇），下一篇優先補 AI widens judgment gap 語言。
-市場需要的 safety/alignment 詞彙尚未出現在任何貼文中。
+Cluster B 目前最少（9 篇），下一篇優先補 PM defines boundaries 語言。
+safety / responsible AI 已在 LPL-20260720T082504Z 中被點名為 open territory，
+但尚未有任何一篇正面處理，這是下一個題材缺口。
 
 ---
 
@@ -33,9 +34,12 @@ Cluster A 目前最少（7 篇），下一篇優先補 AI widens judgment gap �
 ---
 
 ## Gaps
-- Cluster A 只有 7 篇，AI widens judgment gap 語言相對不足
-- 完全沒有 safety / responsible AI 相關詞彙
-- market/ 模組尚未建立（品牌 vs. 市場 gap 分析）
+- Cluster B 只有 9 篇，PM defines boundaries 語言相對不足
+- 仍無任何一篇正面處理 safety / responsible AI（已公開承認為 open territory）
+- market/ 目錄已建立但為空，品牌 vs. 市場 gap 分析目前靠 kg/compare.py 代替
+- 知識圖譜落後發文進度：46 篇已發布，logos_kg.db 涵蓋 33 篇（孤兒記錄已清）。
+  缺的 13 篇概念已離線抽取完成（kg/pending_concepts.json），
+  OpenAI 額度恢復後跑 `python kg/import_pending.py` 補 embedding 即完成
 
 ---
 
